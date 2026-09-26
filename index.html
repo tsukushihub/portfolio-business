@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>月紫（つくし）｜ 医療×AIエージェントコンサルタント・AIライター</title>
+  <title>月紫（つくし）｜ 医療・小規模事業者のためのAI導入支援</title>
   <meta name="description"
     content="医療現場15年の実務経験×AIエージェント開発。現場がわかるから、使われるAIをつくれます。AIエージェント設計・AIライティングの月紫（つくし）ポートフォリオ。">
   <!-- OGP -->
@@ -12,6 +12,21 @@
   <meta property="og:description" content="AIで詰まったとき、最初に頼れる人。医療現場15年×AIエージェント開発×実体験ライティング。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tsukushi-portfolio-01.netlify.app/">
+  <meta property="og:image" content="https://tsukushi-portfolio-01.netlify.app/assets/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="月紫｜医療・小規模事業者のためのAI導入支援">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://tsukushi-portfolio-01.netlify.app/assets/og-image.svg">
+  <meta name="theme-color" content="#0ABAB5">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="privacy-policy" href="privacy-policy.html">
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="月紫 tsuku-lab">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +48,10 @@
         </button>
         <ul class="nav__links" id="nav-menu" role="list">
           <li><a href="#services">Services</a></li>
+          <li><a href="#use-cases">できること</a></li>
+          <li><a href="#ai-company">AI Company</a></li>
           <li><a href="#works">Works</a></li>
+          <li><a href="#process">Flow</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="tsuku-os.html">Tsuku OS</a></li>
           <li><a href="#contact" class="nav__cta">ご相談</a></li>
@@ -53,8 +71,9 @@
         </h1>
         <p class="hero__sub">
           医療現場15年の実務経験 × AIエージェント開発。<br>
-          現場がわかるから、<em>使われるAI</em>をつくれます。
+          医療・小規模事業者の業務に合わせて、<em>現場で使われるAI</em>を設計します。
         </p>
+        <p class="hero__stats">エージェント28体 ・ スキル34本 ・ AI社員76名を設計・運用中</p>
         <p class="hero__name">月紫 <span class="hero__name-en">— Tsukushi —</span></p>
         <div class="hero__actions">
           <a href="#contact" class="btn btn--gold">ご相談・お問い合わせ</a>
@@ -63,6 +82,15 @@
         </div>
       </div>
       <div class="hero__deco" aria-hidden="true"></div>
+    </section>
+
+    <!-- ========== 01.5 POSITIONING ========== -->
+    <section class="positioning" aria-label="対象となる方">
+      <div class="section__inner positioning__inner">
+        <p class="section__label">For You</p>
+        <p class="positioning__lead">AIを導入したいけれど、現場に定着する形がわからない方へ。</p>
+        <p class="positioning__body">ツールを増やすことが目的ではありません。業務を一緒に整理し、まずは一つの面倒な作業から、無理なく改善します。</p>
+      </div>
     </section>
 
     <!-- ========== 02 SERVICES（二枚看板） ========== -->
@@ -77,7 +105,7 @@
             <h3 class="service-card__title">AIエージェント<br class="sp-only">設計・開発</h3>
             <p class="service-card__desc">
               Claude Code を軸にしたカスタムエージェント・スキル設計、業務フローのAI自動化を支援します。
-              医療機関・小規模事業の「現場でちゃんと回る」導入設計が得意です。
+              クリニック・訪問看護・介護施設などの医療現場や、1〜5名の小規模チームへの「現場でちゃんと回る」導入設計が得意です。まずは相談だけでも歓迎です。
             </p>
             <ul class="service-card__tags" role="list">
               <li>カスタムエージェント設計</li>
@@ -118,6 +146,74 @@
       </div>
     </section>
 
+    <!-- ========== 02.5 USE CASES ========== -->
+    <section class="use-cases" id="use-cases" aria-labelledby="use-cases-heading">
+      <div class="section__inner">
+        <p class="section__label">Use Cases</p>
+        <h2 id="use-cases-heading" class="section__title">こんな仕事を、AIに任せられます</h2>
+        <p class="section__intro">「AIエージェント」と言われても、何ができるのかわからない。そんな方のために、実際の業務に置き換えてご紹介します。</p>
+        <div class="use-cases__grid">
+          <article class="use-case-card"><span class="use-case-card__icon">01</span><h3>調べる・まとめる</h3><p>情報収集、比較、要点整理、社内向けレポートの下書きを効率化します。</p></article>
+          <article class="use-case-card"><span class="use-case-card__icon">02</span><h3>書く・発信する</h3><p>記事構成、SNS投稿、メール、案内文をあなたの言葉に合わせて作成します。</p></article>
+          <article class="use-case-card"><span class="use-case-card__icon">03</span><h3>記録・引き継ぐ</h3><p>メモや会話から記録の下書きを作り、申し送りや共有の負担を軽くします。</p></article>
+          <article class="use-case-card"><span class="use-case-card__icon">04</span><h3>繰り返しを減らす</h3><p>定型作業やチェック、資料づくりなど、毎回発生する仕事を仕組み化します。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 02.6 AI COMPANY ========== -->
+    <section class="ai-company" id="ai-company" aria-labelledby="ai-company-heading">
+      <div class="section__inner">
+        <div class="ai-company__intro">
+          <div>
+            <p class="section__label">AI Company</p>
+            <h2 id="ai-company-heading" class="section__title">AI社員と働く、<br>小さなカンパニー。</h2>
+          </div>
+          <p class="ai-company__lead">月紫の仕事を支えるのは、役割ごとに設計されたAI社員たち。調査、企画、制作、管理まで、それぞれの得意分野を持つメンバーがチームで動きます。</p>
+        </div>
+        <div class="ai-company__status"><span class="status-dot"></span> AI company <strong>76 members / featured 6</strong></div>
+        <div class="ai-company__grid">
+          <article class="employee-card employee-card--lead" tabindex="0" role="button" aria-label="トリアの詳細を見る" data-employee-id="toria" data-employee-name="トリア" data-employee-role="AI秘書（受付）" data-employee-desc="受付・メール仕分け・スケジュール管理" data-employee-floor="1F 受付" data-employee-image="toria.png"><div class="employee-card__avatar">ト</div><div><p class="employee-card__role">AI秘書 / 受付</p><h3>トリア</h3><p>受付、メール仕分け、スケジュール管理。</p></div><span class="employee-card__status">詳細を見る</span></article>
+          <article class="employee-card" tabindex="0" role="button" aria-label="リサの詳細を見る" data-employee-id="research-assistant" data-employee-name="リサ" data-employee-role="リサーチャー" data-employee-desc="ディープリサーチ・調査レポート" data-employee-floor="2F 図書室・リサーチ部" data-employee-image="research-assistant.png"><img class="employee-card__portrait" src="virtual-office/avatars/research-assistant.png" alt="リサのアバター"><div><p class="employee-card__role">リサーチ部</p><h3>リサ</h3><p>ディープリサーチ、調査、レポート作成。</p></div><span class="employee-card__status">詳細を見る</span></article>
+          <article class="employee-card" tabindex="0" role="button" aria-label="ホネオの詳細を見る" data-employee-id="report-composer" data-employee-name="ホネオ" data-employee-role="レポート設計士" data-employee-desc="章立て・論理構造の設計" data-employee-floor="3F 企画・構成室" data-employee-image="report-composer.png"><img class="employee-card__portrait" src="virtual-office/avatars/report-composer.png" alt="ホネオのアバター"><div><p class="employee-card__role">レポートチーム</p><h3>ホネオ</h3><p>レポートの章立てと論理構造の設計。</p></div><span class="employee-card__status">詳細を見る</span></article>
+          <article class="employee-card" tabindex="0" role="button" aria-label="ライトの詳細を見る" data-employee-id="article-writer" data-employee-name="ライト" data-employee-role="記事ライター" data-employee-desc="クライアントの目的・読者・ブランドに合わせた記事執筆" data-employee-floor="4F 執筆スタジオ" data-employee-image="article-writer.png"><img class="employee-card__portrait" src="virtual-office/avatars/article-writer.png" alt="ライトのアバター"><div><p class="employee-card__role">執筆スタジオ</p><h3>ライト</h3><p>クライアントの目的や読者に合わせた文体で、記事を執筆・編集。</p></div><span class="employee-card__status">詳細を見る</span></article>
+          <article class="employee-card" tabindex="0" role="button" aria-label="ザインの詳細を見る" data-employee-id="design-consultant" data-employee-name="ザイン" data-employee-role="デザイナー" data-employee-desc="Webデザイン・バナー・LP実装" data-employee-floor="4F 画像スタジオ" data-employee-image="design-consultant.png"><img class="employee-card__portrait" src="virtual-office/avatars/design-consultant.png" alt="ザインのアバター"><div><p class="employee-card__role">画像スタジオ</p><h3>ザイン</h3><p>Webデザイン、バナー、LP実装。</p></div><span class="employee-card__status">詳細を見る</span></article>
+          <article class="employee-card" tabindex="0" role="button" aria-label="フミの詳細を見る" data-employee-id="report-writer-agent" data-employee-name="フミ" data-employee-role="レポート執筆者" data-employee-desc="レポート本文の執筆" data-employee-floor="4F 執筆スタジオ" data-employee-image="report-writer-agent.png"><img class="employee-card__portrait" src="virtual-office/avatars/report-writer-agent.png" alt="フミのアバター"><div><p class="employee-card__role">レポートチーム</p><h3>フミ</h3><p>レポート本文の執筆。</p></div><span class="employee-card__status">詳細を見る</span></article>
+        </div>
+        <p class="ai-company__note">※AI社員は、あなたの業務に合わせて役割・名前・ワークフローをカスタマイズできます。</p>
+      </div>
+    </section>
+
+    <div class="employee-modal" id="employee-modal" aria-hidden="true">
+      <div class="employee-modal__backdrop" data-modal-close></div>
+      <section class="employee-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="employee-modal-name">
+        <button class="employee-modal__close" type="button" aria-label="詳細を閉じる" data-modal-close>×</button>
+        <div class="employee-modal__image-wrap"><img id="employee-modal-image" src="" alt=""></div>
+        <div class="employee-modal__content">
+          <p class="employee-modal__eyebrow" id="employee-modal-floor"></p>
+          <h2 id="employee-modal-name"></h2>
+          <p class="employee-modal__role" id="employee-modal-role"></p>
+          <p class="employee-modal__desc" id="employee-modal-desc"></p>
+          <a class="btn btn--gold" href="#contact" data-modal-close>この業務について相談する</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ========== 02.7 PROCESS ========== -->
+    <section class="process" id="process" aria-labelledby="process-heading">
+      <div class="section__inner">
+        <p class="section__label">Process</p>
+        <h2 id="process-heading" class="section__title">ご相談から導入まで</h2>
+        <p class="section__intro">内容がまだ曖昧でも大丈夫です。現状を聞きながら、必要な範囲だけをご提案します。</p>
+        <ol class="process__list">
+          <li><span>01</span><div><h3>ご相談</h3><p>今困っていること、試してみたいことをお聞かせください。</p></div></li>
+          <li><span>02</span><div><h3>業務の整理</h3><p>人がやることと、AIに任せられることを一緒に切り分けます。</p></div></li>
+          <li><span>03</span><div><h3>小さく試す</h3><p>いきなり大きく変えず、優先度の高い一つの業務から始めます。</p></div></li>
+          <li><span>04</span><div><h3>導入後も伴走</h3><p>使いながら調整し、現場に定着するところまでサポートします。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
     <!-- ========== 03 WORKS ========== -->
     <section class="works" id="works" aria-labelledby="works-heading">
       <div class="section__inner">
@@ -144,6 +240,32 @@
                 <figcaption>1F 受付カフェ（クリックすると社員が動くオフィスへ）</figcaption>
               </figure>
             </div>
+          </article>
+
+          <article class="work-card">
+            <p class="work-card__badge">Award</p>
+            <h3 class="work-card__title">AI秘書エージェント「toria」</h3>
+            <p class="work-card__desc">
+              受信トレイ仕分け・メール返信下書き・スケジュール確認・タスク整理を担うAI秘書エージェント。
+              SHIFT AI ELITEプランの審査で<strong>12&thinsp;/&thinsp;12点満点・全項目S評価</strong>を獲得した代表作。
+            </p>
+            <p class="work-card__note">Claude Code / カスタムエージェント設計 / Gmail MCP / Google Calendar MCP</p>
+          </article>
+
+          <article class="work-card">
+            <h3 class="work-card__title">チーム共有Todoアプリ「E-サポ Todo」</h3>
+            <p class="work-card__desc">
+              医療・介護サポートチーム向けに設計した実動プロダクト。Firebase Firestoreによるリアルタイム同期を実装し、Netlifyで公開・運用中。
+            </p>
+            <p class="work-card__note">Firebase Firestore / Netlify / HTML・CSS・JavaScript</p>
+          </article>
+
+          <article class="work-card">
+            <h3 class="work-card__title">案件リサーチBot「Red Rabbit」</h3>
+            <p class="work-card__desc">
+              SlackからClaude Codeへ指示を送り、クラウドワークス・ランサーズの案件を自動リサーチするBridge Bot。日々の案件探し業務をSlack連携で自動化。
+            </p>
+            <p class="work-card__note">Slack API / Claude Code / 業務自動化ワークフロー</p>
           </article>
 
           <article class="work-card">
@@ -230,6 +352,7 @@
           AIエージェント開発のご相談、記事執筆のご依頼、<br class="pc-only">
           「まずは話を聞いてみたい」も歓迎です。
         </p>
+        <p class="contact__reassurance">初回相談30分・オンライン対応可。ご相談内容がまだ曖昧でも大丈夫です。</p>
         <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact">
           <p class="contact-form__hidden"><label>入力しないでください：<input name="bot-field"></label></p>
@@ -256,6 +379,7 @@
           </div>
           <button type="submit" class="btn btn--gold btn--large">フォームから送信する</button>
           <p class="contact-form__status" id="contact-form-status" role="status" aria-live="polite"></p>
+          <p class="contact-form__privacy">フォーム送信前に<a href="privacy-policy.html">プライバシーポリシー</a>をご確認ください。</p>
         </form>
         <ul class="contact__links" role="list">
           <li><a href="https://lit.link/_tsukushi" target="_blank" rel="noopener noreferrer">lit.link（SNSまとめ）</a>
@@ -272,6 +396,7 @@
   <!-- ========== FOOTER ========== -->
   <footer class="footer" role="contentinfo">
     <p>&copy; 2026 月紫（つくし） / Tsukushi</p>
+    <p><a href="privacy-policy.html">プライバシーポリシー</a></p>
   </footer>
 
   <script src="script.js"></script>
